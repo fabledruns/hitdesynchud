@@ -2,7 +2,7 @@
 	"schemaVersion": 1,
 	"id": "hitdesynchud",
 	"version": "${version}",
-	"name": "Hit Desync Hud",
+	"name": "Hit Desync HUD",
 	"description": "Client-side feedback on whether the server is registering your hits, useful for identifying lag or desync in PvP.",
 	"authors": [
 		"FabledRuns"
