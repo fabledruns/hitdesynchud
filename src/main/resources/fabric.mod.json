@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "hitdesynchud",
+	"version": "${version}",
+	"name": "Hit Desync Hud",
+	"description": "Client-side feedback on whether the server is registering your hits, useful for identifying lag or desync in PvP.",
+	"authors": [
+		"FabledRuns"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/fabledruns/hitdesynchud"
+	},
+	"license": "MIT",
+	"icon": "assets/hitdesynchud/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.fabledruns.hitdesynchud.HitDesyncHudClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.18.1",
+		"minecraft": "~1.21.8",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
