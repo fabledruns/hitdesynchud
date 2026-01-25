@@ -27,6 +27,10 @@ Because blaming ping is easier when you have proof.
  - Does not fix your internet
  - Does tell you that your internet has skill issue
 
+ ## Support 
+
+ Join our discord server: https://discord.gg/WAFac8MxMx
+
 ## Compatibility
 
  - Fabric
