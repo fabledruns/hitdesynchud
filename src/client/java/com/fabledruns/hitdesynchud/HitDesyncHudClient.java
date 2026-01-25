@@ -1,5 +1,10 @@
 package com.fabledruns.hitdesynchud;
 
+import com.fabledruns.hitdesynchud.config.HudConfig;
+import com.fabledruns.hitdesynchud.hud.HudRenderer;
+import com.fabledruns.hitdesynchud.input.HudKeybinds;
+import com.fabledruns.hitdesynchud.logic.AttackTracker;
+import com.fabledruns.hitdesynchud.logic.DesyncDetector;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
@@ -14,6 +19,9 @@ public class HitDesyncHudClient implements ClientModInitializer {
 
     @Override
     public void onInitializeClient() {
+        // load config
+        LOGGER.info("Loading Hud Config");
+        HudConfig.load();
         // init keybinds
         LOGGER.info("Initializing Hud Keybinds");
         HudKeybinds.init();

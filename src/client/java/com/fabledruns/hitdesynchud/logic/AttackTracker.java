@@ -1,4 +1,4 @@
-package com.fabledruns.hitdesynchud;
+package com.fabledruns.hitdesynchud.logic;
 
 import net.fabricmc.fabric.api.event.player.AttackEntityCallback;
 import net.minecraft.entity.LivingEntity;
